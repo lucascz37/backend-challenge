@@ -39,51 +39,47 @@ O desafio é muito simples, você deve acessar a API e buscar algumas informaç�
 
 - [ ] Encontrar os personagens que *mais* apareceram em todos os filmes de Star Wars;
 - [ ] Obter a Área dos planetas e ordenar do Maior para o menor;
-- [ ] Verificar quantas pessoas pilotaram a nossa querida Milenium Falcon e exibir o nome dos mesmos;
+- [ ] Verificar quantas pessoas pilotaram a nossa querida Millennium Falcon e exibir o nome dos mesmos;
 - [ ] Apresentar tudo visualmente da forma que achar melhor
 
 ### 🚰 Fluxo Recomendado
 
 - Encontre os personagens e filmes através da API;
-- Obtenha os países e a Área de cada um;
-  - :warning: Encontre o diâmetro e calcule a área
-
+- Obtenha os planetas e a Área de cada um;
+  - :warning: Encontre o diâmetro e calcule a área;
+- Encontre a nave;
+  - quantos pilotos a dirigiram 
+  - seus respectivos nomes; 
+- represente visualmente os dados obtidos 
 
 
 ---
 
 **Operações necessárias**
 
-- [ ] Criar
-- [ ] Remover
-- [ ] Editar
-- [ ] Listar
-  - [ ] Paginação
-  - [ ] Busca por título e descrição
-
-**Operações necessárias**
-
-- [ ] Enviar
-- [ ] Listar
-  - [ ] Filtros: desafio, intervalo de datas, status
-  - [ ] Paginação
+- [ ] Leia a documentação;
+- [ ] Guarde os personagens, planetas e pilotos em variáveis;
+- [ ] Salve o que achar necessário em variáveis;
+- [ ] :Warning: exibir os dados de saída do código;
+ 
 
 ## ✔️ Critérios de Avaliação
 
 Além dos requisitos levantados acima, iremos olhar para os seguintes critérios durante a correção do desafio:
 
-- asdasd
-- asdasd
-- asdads
-
-## :rocket: Instruções
-- asdasdas
-- asdasd
-- asdads
+- se o desafio foi totalmente realizado;
+- se as etapas foram cumpridas com sucesso;
+- se o código está limpo e bem documentado;
+- se o código está otimizado;
+- a forma de apresentação;
+- preocupação com o usuário final;
 
 
 ### :notebook: To-do list
-- [ ] Fazer o fork do projeto
+- [ ] Realizar o desafio
+  - [ ] Encontrar os personagens que *mais* apareceram em todos os filmes de Star Wars;
+  - [ ] Obter a Área dos planetas e ordenar do Maior para o menor;
+  - [ ] Verificar quantas pessoas pilotaram a nossa querida Millennium Falcon e exibir o nome dos mesmos;
 - [ ] Configurar ambiente de desenvolvimento (inclusive executar o serviço de [corrections](packages/corrections))
 - [ ] Criar uma [API GraphQL](https://docs.nestjs.com/graphql/quick-start) com o [contexto](#-contexto) acima utilizando Typescript
 - [ ] Fazer a integração com o serviço de [corrections](packages/corrections) através do Apache Kafka
