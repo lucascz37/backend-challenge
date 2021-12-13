@@ -1,93 +1,99 @@
-![image]()
+![image](https://images.unsplash.com/photo-1623476408624-721c9185d569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
 
 # 🚀 Backend challenge
 
-Bem-vindo(a). Este é o desafio Backend de Star Wars!
+Welcome. This is our Star Wars Backend Challenge!
 
-O objetivo deste desafio é avaliar suas habilidades de programação.
-Quando sua solução estiver pronta, basta responder o e-mail que recebeu com o link do seu repo aqui no Github!
-Em seguida, enviaremos o feedback e as instruções dos próximos passos!
+Our main goal is to avaluate your coding and presentation skills.
+When you feel ready to submit your answers, use the link we sent to your e-mail to post your Github Repo!
+We will send you further instructions and your feedback then.
 
-Caso tenha alguma dúvida, nós estamos disponíveis no email *contato.steamgroups@gmail.com*
-Bom desafio!
+<!-- Quando sua solução estiver pronta, basta responder o e-mail que recebeu com o link do seu repo aqui no Github!
+Em seguida, enviaremos o feedback e as instruções dos próximos passos! -->
+Any doubts, don't hesitate to contact us on *contato.steamgroups@gmail.com*
+Happy Hacking💙!
+<!-- Caso tenha alguma dúvida, nós estamos disponíveis no email *contato.steamgroups@gmail.com*
+Bom desafio! -->
 
-> ⚠️ **É importante que o seu repositório esteja público, caso contrário não iremos conseguir avaliar sua resposta**
+> ⚠️ **Remember, your repository must be public, otherwise we won't be able to avaluate your answer**
 
 ---
 
 ## Table of Contents
 
-- [🧠 Contexto](#-contexto)
-  - [⚔️ O Desafio](#️-o-desafio)
-  - [🚰 Fluxo esperado](#-fluxo-esperado)
-  - [📓 Submissão](#-submissão)
-- [✔️ Critérios de Avaliação](#️-critérios-de-avaliação)
-- [:rocket: Instruções](#rocket-instruções)
-  - [:notebook: To-do list](#notebook-to-do-list)
+- [🧠 Context](#-context)
+  - [⚔️ The Challenge](#️-the-challenge)
+  - [🤟 You Must](#-you-must)
+  - [🚰 Ideal Flux](#-ideal-flux)
+- [✔️ Avaluation Criteria](#️-avaluation-criteria)
+- [:notebook: To-do list](#notebook-to-do-list)
+- [You can](#-you-can)
 
-# 🧠 Contexto
+# 🧠 Context
 
-Para testar as suas habilidades intergalácticas de codar. Trouxemos de uma galáxia muito, muito distante, um desafio único para programadores capazes de trabalhar com APIs. Queremos encontrar algumas informações sobre os Filmes para *apresentar* à alguns de nossos pareceiros, a grandiosidade do universo cinematográfico de SW.
+To test your intergalactical coding habilities, we brought from a far, far galaxy an unique challenge for coders capable to work with APIs.
+We need to obtain some informations about the StarWars movies in order to *present* to some of our partners how great the SW Cinematographic Universe is.
 
-- Utilize a API [SWAPI](https://swapi.dev/) para obter os dados que precisar.
+- Use the [SWAPI](https://swapi.dev/) API to get the data you need.
 
-### ⚔️ O Desafio
+### ⚔️ The Challenge
 
-O desafio é muito simples, você deve acessar a API e buscar algumas informações (citadas abaixo) e depois exibir visualmente da forma que achar melhor. Pode ser criando uma apresentação, gráficos, Charts ou o que mais imaginar. Faça da forma mais criativa que puder.
+The challenge is far, far simple: you must get the data asked at [You Must](#-you-must) using the SWAPI API and exhibit the results visually the best way you can. You can create a presentation, graphics, Charts or what you feel is the best. 
 
-#### Você deve:
+#### 🤟 You Must:
 
-- [ ] Encontrar os personagens que *mais* apareceram em todos os filmes de Star Wars;
-- [ ] Obter a Área dos planetas e ordenar do Maior para o menor;
-- [ ] Verificar quantas pessoas pilotaram a nossa querida Millennium Falcon e exibir o nome dos mesmos;
-- [ ] Apresentar tudo visualmente da forma que achar melhor
+- [ ] You must find the characters who appear the most in the SW movies (you can put them in order if you want);
+- [ ] Obtain the Planets Size (Area) and order them (bigger to smaller);
+- [ ] Verify how many pilots did the Millenium Falcon had and who were they?;
+- [ ] Present the results the best way you can
 
-### 🚰 Fluxo Recomendado
+### 🚰 Ideal Flux
 
-- Encontre os personagens e filmes através da API;
-- Obtenha os planetas e a Área de cada um;
-  - :warning: Encontre o diâmetro e calcule a área;
-- Encontre a nave;
-  - quantos pilotos a dirigiram 
-  - seus respectivos nomes; 
-- represente visualmente os dados obtidos 
+- Find characters and movies via the API;
+- Get the planets and the Area of ​​each one;
+  - :warning: Find the diameter and calculate the area;
+- Find the ship;
+  - How many pilots drove it;
+  - Their respective names;
+- Visually represent the data obtained
 ---
 
-**Operações necessárias**
+**Essential Operations**
 
-- [ ] Leia a documentação;
-- [ ] Guarde os personagens, planetas e pilotos em variáveis;
-- [ ] Salve o que achar necessário em variáveis;
-- [ ] :warning: exibir os dados de saída do código;
+- [ ] Read the documentation;
+- [ ] Save the characters, planets and pilots in variables;
+- [ ] Save what you find necessary in variables;
+- [ ] :warning: display the code output data;
  
 
-## ✔️ Critérios de Avaliação
+## ✔️ Avaluation Criteria
 
-Além dos requisitos levantados acima, iremos olhar para os seguintes critérios durante a correção do desafio:
+In addition to the requirements raised above, we will look at the following criteria when correcting the challenge:
 
-- se o desafio foi totalmente realizado;
-- se as etapas foram cumpridas com sucesso;
-- se o código está limpo e bem documentado;
-- se o código está otimizado;
-- a forma de apresentação;
-- preocupação com o usuário final;
+- If the challenge was fully accomplished;
+- Whether the steps were successfully completed;
+- If the code is clean and well documented;
+- If the code is optimized;
+- The form of presentation;
+- Concern for the end user;
 
 
 ### :notebook: To-do list
-- [ ] Realizar o desafio
-  - [ ] Encontrar os personagens que *mais* apareceram em todos os filmes de Star Wars;
-  - [ ] Obter a Área dos planetas e ordenar do Maior para o menor;
-  - [ ] Verificar quantas pessoas pilotaram a nossa querida Millennium Falcon e exibir o nome dos mesmos;
-- [ ] Incluir no README os detalhes da sua solução
-  - [ ] o que foi cumprido no desafio;
-  - [ ] instruções de como verificar o que foi cumprido;
-  - [ ] printe as imagens que comprovem as suas soluções;
-  - [ ] README deve ser em inglês;
+
+- [ ] Fully take the challenge
+  - [ ] find the characters who appear the most in the SW movies;
+  - [ ] Get the Area of the planets and sort from Largest to Smallest;
+  - [ ] Check how many people have piloted our dear Millennium Falcon and display their names;
+- [ ] Include details of your solution in the README
+  - [ ] what was accomplished in the challenge;
+  - [ ] instructions on how to check what was fulfilled;
+  - [ ] print the images that prove your solutions;
+  - [ ] README must be in English;
 
 
 ### You can:
-:information_source: _Sinta-se livre para incluir quaisquer observações que achar necessário_
+:information_source: _Feel free to include all the observations you may find necessary_
 
 ---
 
-Made with 💜 
+Made with 💙 by SteamGroups
