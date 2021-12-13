@@ -40,8 +40,14 @@ We need to obtain some informations about the StarWars movies in order to *prese
 
 The challenge is far, far simple: you must get the data asked at [You Must](#-you-must) using the SWAPI API and exhibit the results visually the best way you can. You can create a presentation, graphics, Charts or what you feel is the best. 
 
+## 🏁 Requirements
+
+- API Knowlegment
+- JAVA Knowlegment
+
 #### 🤟 You Must:
 
+- [ ] Code in Java
 - [ ] You must find the characters who appear the most in the SW movies (you can put them in order if you want);
 - [ ] Obtain the Planets Size (Area) and order them (bigger to smaller);
 - [ ] Verify how many pilots did the Millenium Falcon had and who were they?;
