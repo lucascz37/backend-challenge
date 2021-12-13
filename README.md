@@ -27,7 +27,7 @@ Bom desafio!
 
 # 🧠 Contexto
 
-Para testar as suas habilidades intergalácticas de codar. Trouxemos de uma galáxia muito, muito distante, um desafio único para programadores capazes de trabalhar com APIs. Queremos encontrar algumas informações sobre os Filmes para *apresentar* a alguns de nossos pareceiros a grandiosidade do universo cinematográfico de SW.
+Para testar as suas habilidades intergalácticas de codar. Trouxemos de uma galáxia muito, muito distante, um desafio único para programadores capazes de trabalhar com APIs. Queremos encontrar algumas informações sobre os Filmes para *apresentar* à alguns de nossos pareceiros, a grandiosidade do universo cinematográfico de SW.
 
 - Utilize a API [SWAPI](https://swapi.dev/) para obter os dados que precisar.
 
@@ -58,7 +58,7 @@ O desafio é muito simples, você deve acessar a API e buscar algumas informaç�
 - [ ] Leia a documentação;
 - [ ] Guarde os personagens, planetas e pilotos em variáveis;
 - [ ] Salve o que achar necessário em variáveis;
-- [ ] :Warning: exibir os dados de saída do código;
+- [ ] :warning: exibir os dados de saída do código;
  
 
 ## ✔️ Critérios de Avaliação
