@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/40845824/121069742-3accdb00-c7a4-11eb-87d0-3dc47e433762.png)
+![image]()
 
 # 🚀 Backend challenge
 
@@ -51,8 +51,6 @@ O desafio é muito simples, você deve acessar a API e buscar algumas informaç�
   - quantos pilotos a dirigiram 
   - seus respectivos nomes; 
 - represente visualmente os dados obtidos 
-
-
 ---
 
 **Operações necessárias**
@@ -80,19 +78,16 @@ Além dos requisitos levantados acima, iremos olhar para os seguintes critérios
   - [ ] Encontrar os personagens que *mais* apareceram em todos os filmes de Star Wars;
   - [ ] Obter a Área dos planetas e ordenar do Maior para o menor;
   - [ ] Verificar quantas pessoas pilotaram a nossa querida Millennium Falcon e exibir o nome dos mesmos;
-- [ ] Configurar ambiente de desenvolvimento (inclusive executar o serviço de [corrections](packages/corrections))
-- [ ] Criar uma [API GraphQL](https://docs.nestjs.com/graphql/quick-start) com o [contexto](#-contexto) acima utilizando Typescript
-- [ ] Fazer a integração com o serviço de [corrections](packages/corrections) através do Apache Kafka
-- [ ] Incluir no README as instruções de instalação do projeto
+- [ ] Incluir no README os detalhes da sua solução
+  - [ ] o que foi cumprido no desafio;
+  - [ ] instruções de como verificar o que foi cumprido;
+  - [ ] printe as imagens que comprovem as suas soluções;
+  - [ ] README deve ser em inglês;
 
 
 ### You can:
-- [ ] 
-
-<!-- :information_source: _Sinta-se livre para incluir quaisquer observações que achar necessário_
+:information_source: _Sinta-se livre para incluir quaisquer observações que achar necessário_
 
 ---
 
-_O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas. Já possuimos uma funcionalidade similar na nossa plataforma._
-
-Made with 💜 at Rocketseat -->
+Made with 💜 
