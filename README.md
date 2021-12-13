@@ -23,6 +23,7 @@ Bom desafio! -->
 
 - [🧠 Context](#-context)
   - [⚔️ The Challenge](#️-the-challenge)
+  - [🏁 Requirements](#-requirements)
   - [🤟 You Must](#-you-must)
   - [🚰 Ideal Flux](#-ideal-flux)
 - [✔️ Avaluation Criteria](#️-avaluation-criteria)
@@ -36,11 +37,11 @@ We need to obtain some informations about the StarWars movies in order to *prese
 
 - Use the [SWAPI](https://swapi.dev/) API to get the data you need.
 
-### ⚔️ The Challenge
+## ⚔️ The Challenge
 
 The challenge is far, far simple: you must get the data asked at [You Must](#-you-must) using the SWAPI API and exhibit the results visually the best way you can. You can create a presentation, graphics, Charts or what you feel is the best. 
 
-## 🏁 Requirements
+### 🏁 Requirements
 
 - API Knowlegment
 - JAVA Knowlegment
