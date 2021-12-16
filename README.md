@@ -15,7 +15,7 @@ Happy Hacking💙!
 <!-- Caso tenha alguma dúvida, nós estamos disponíveis no email *contato.steamgroups@gmail.com*
 Bom desafio! -->
 
-> ⚠️ **Remember, your repository must be public, otherwise we won't be able to avaluate your answer**
+> ⚠️ **Remember, your repository must be public, otherwise we won't be able to evaluate your answer**
 
 ---
 
