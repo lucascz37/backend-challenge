@@ -26,7 +26,7 @@ Bom desafio! -->
   - [🏁 Requirements](#-requirements)
   - [🤟 You Must](#-you-must)
   - [🚰 Ideal Flux](#-ideal-flux)
-- [✔️ Avaluation Criteria](#️-avaluation-criteria)
+- [✔️ Evaluation Criteria](#️-evaluation-criteria)
 - [:notebook: To-do list](#notebook-to-do-list)
 - [You can](#-you-can)
 
