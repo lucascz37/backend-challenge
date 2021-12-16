@@ -4,13 +4,13 @@
 
 Welcome. This is our Star Wars Backend Challenge!
 
-Our main goal is to avaluate your coding and presentation skills.
+Our main goal is to evaluate your coding and presentation skills.
 When you feel ready to submit your answers, use the link we sent to your e-mail to post your Github Repo!
 We will send you further instructions and your feedback then.
 
 <!-- Quando sua solução estiver pronta, basta responder o e-mail que recebeu com o link do seu repo aqui no Github!
 Em seguida, enviaremos o feedback e as instruções dos próximos passos! -->
-Any doubts, don't hesitate to contact us on *contato.steamgroups@gmail.com*
+Any questions, don't hesitate to contact us on *contato.steamgroups@gmail.com*
 Happy Hacking💙!
 <!-- Caso tenha alguma dúvida, nós estamos disponíveis no email *contato.steamgroups@gmail.com*
 Bom desafio! -->
@@ -32,8 +32,8 @@ Bom desafio! -->
 
 # 🧠 Context
 
-To test your intergalactical coding habilities, we brought from a far, far galaxy an unique challenge for coders capable to work with APIs.
-We need to obtain some informations about the StarWars movies in order to *present* to some of our partners how great the SW Cinematographic Universe is.
+To test your intergalactical coding habilities, we brought from a far, far galaxy a unique challenge for coders capable to work with APIs.
+We need to obtain some information about the StarWars movies in order to *present* to some of our partners how great the SW Cinematographic Universe is.
 
 - Use the [SWAPI](https://swapi.dev/) API to get the data you need.
 
@@ -73,7 +73,7 @@ The challenge is far, far simple: you must get the data asked at [You Must](#-yo
 - [ ] :warning: display the code output data;
  
 
-## ✔️ Avaluation Criteria
+## ✔️ Evaluation Criteria
 
 In addition to the requirements raised above, we will look at the following criteria when correcting the challenge:
 
