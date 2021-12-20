@@ -50,28 +50,32 @@ The challenge is far, far simple: you must get the data asked at [You Must](#-yo
 
 - [ ] Code in Java
 - [ ] You must find the characters who appear the most in the SW movies (you can put them in order if you want);
-- [ ] Obtain the Planets Size (Area) and order them (bigger to smaller);
 - [ ] Verify how many pilots did the Millenium Falcon had and who were they?;
 - [ ] Present the results the best way you can
+
+<!-- - [ ] Obtain the Planets Size (Area) and order them (bigger to smaller); -->
 
 ### 🚰 Ideal Flux
 
 - Find characters and movies via the API;
-- Get the planets and the Area of ​​each one;
-  - :warning: Find the diameter and calculate the area;
 - Find the ship;
   - How many pilots drove it;
   - Their respective names;
 - Visually represent the data obtained
+
+<!-- - Get the planets and the Area of each one;
+  - :warning: Find the diameter and calculate the area; -->
+
 ---
 
 **Essential Operations**
 
 - [ ] Read the documentation;
-- [ ] Save the characters, planets and pilots in variables;
+- [ ] Save the characters and pilots in variables;
 - [ ] Save what you find necessary in variables;
 - [ ] :warning: display the code output data;
  
+ <!-- - [ ] Save the characters, planets and pilots in variables; -->
 
 ## ✔️ Evaluation Criteria
 
@@ -89,7 +93,6 @@ In addition to the requirements raised above, we will look at the following crit
 
 - [ ] Fully take the challenge
   - [ ] find the characters who appear the most in the SW movies;
-  - [ ] Get the Area of the planets and sort from Largest to Smallest;
   - [ ] Check how many people have piloted our dear Millennium Falcon and display their names;
 - [ ] Include details of your solution in the README
   - [ ] what was accomplished in the challenge;
@@ -97,6 +100,7 @@ In addition to the requirements raised above, we will look at the following crit
   - [ ] print the images that prove your solutions;
   - [ ] README must be in English;
 
+<!--   - [ ] Get the Area of the planets and sort from Largest to Smallest; -->
 
 ### You can:
 :information_source: _Feel free to include all the observations you may find necessary_
