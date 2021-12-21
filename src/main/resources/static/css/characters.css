@@ -1,0 +1,8 @@
+.grid-display{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.character{
+    justify-self: center;
+}
