@@ -20,13 +20,14 @@
         </nav>
 
         <div class="grid-display mt-5">
-            <#list characters as character>
+            <#list films as film>
                 <div class="grid-item card mt-5" style="width: 18rem;">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Name: ${character.name}</li>
-                        <li class="list-group-item">Height: ${character.height}</li>
-                        <li class="list-group-item">Birth year: ${character.birthYear}</li>
-                        <li class="list-group-item">Number of films that appears: ${character.films?size}</li>
+                        <li class="list-group-item">Title: ${film.title}</li>
+                        <li class="list-group-item">Episode: ${film.episode}</li>
+                        <li class="list-group-item">Director: ${film.director}</li>
+                        <li class="list-group-item">Producer: ${film.producer}</li>
+                        <li class="list-group-item">ReleaseDate: ${film.releaseDate}</li>
                     </ul>
                 </div>
             </#list>

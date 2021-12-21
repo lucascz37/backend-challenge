@@ -41,7 +41,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Movies</h5>
                     <p class="card-text">Search and find info about the movies of the franchise</p>
-                    <a href="/movies" class="btn btn-primary">Click Here</a>
+                    <a href="/films" class="btn btn-primary">Click Here</a>
                 </div>
             </div>
         </div>
