@@ -19,12 +19,6 @@ public class SWCharacter {
     private String birthYear;
 
     private List<String> films;
-
-    @Override
-    public String toString() {
-        return "SWCharacter [birthYear=" + birthYear + ", height=" + height + ", name=" + name + "]";
-    }
-
     
     
 }

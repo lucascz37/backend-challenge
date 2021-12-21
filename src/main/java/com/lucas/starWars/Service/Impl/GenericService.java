@@ -1,4 +1,4 @@
-package com.lucas.starWars.Service;
+package com.lucas.starWars.Service.Impl;
 
 import java.io.IOException;
 
@@ -7,23 +7,29 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
-import com.lucas.starWars.models.Characters;
+import com.lucas.starWars.Service.Service;
+import com.lucas.starWars.models.Page;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-@Service
-public class CharacterService {
+public class GenericService<T> implements Service<T> {
 
-    private static final String api = "https://swapi.dev/api/people";
-    private static Logger logger = LoggerFactory.getLogger(CharacterService.class);
+    private final String apiURL;
+    private final TypeReference<Page<T>> reference;
+    private static Logger logger = LoggerFactory.getLogger(GenericService.class);
 
-    public Characters getCharacters(Integer page){
+    public GenericService(String apiURL, TypeReference<Page<T>> reference){
+        this.apiURL = apiURL;
+        this.reference = reference;
+    }
+
+    @Override
+    public Page<T> getPage(Integer page) {
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> response = restTemplate.getForEntity(String.format("%s/?page=%d", api, page), String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity(String.format("%s/?page=%d", apiURL, page), String.class);
         ObjectMapper mapper = new ObjectMapper();
 
         JsonNode result;
@@ -35,18 +41,24 @@ public class CharacterService {
             return null;
         }
 
-        ObjectReader reader = mapper.readerFor(new TypeReference<Characters>() {
-        });
+        ObjectReader reader = mapper.readerFor(reference);
 
-        Characters characters;
+        Page<T> pageResult;
 
         try{
-            characters = reader.readValue(result);
+            pageResult = reader.readValue(result);
         }catch(IOException e){
             logger.error("Error converting characters to list");
             return null;
         }
         
-        return characters;     
+        return pageResult;
     }
+
+    @Override
+    public T getById(Integer id) {
+        
+        return null;
+    }
+    
 }

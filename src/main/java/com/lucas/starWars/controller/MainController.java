@@ -2,7 +2,9 @@ package com.lucas.starWars.controller;
 
 import java.util.HashMap;
 
-import com.lucas.starWars.Service.CharacterService;
+import com.lucas.starWars.Service.Impl.CharacterService;
+import com.lucas.starWars.models.Page;
+import com.lucas.starWars.models.SWCharacter;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,7 +32,7 @@ public class MainController {
 
         HashMap<String, Object> params = new HashMap<>();
 
-        var characters = characterService.getCharacters(page);
+        Page<SWCharacter> characters = characterService.getPage(page);
         params.put("characters", characters.getResults());
         
         if(characters.getPrevious() != null){

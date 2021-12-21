@@ -8,9 +8,9 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Characters {
+public class Page<T> {
     
     private String next;
     private String previous;
-    private List<SWCharacter> results;
+    private List<T> results;
 }
