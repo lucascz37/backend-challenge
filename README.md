@@ -1,5 +1,28 @@
 ![image](https://images.unsplash.com/photo-1623476408624-721c9185d569?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
 
+# How to execute
+Open in your favorite java IDE and execute the project (I've used Maven for dependecy management), the project default port is 8080.
+
+# What it does
+
+The backend make requests to the API according to the url on the browser and build a web page to display the data.
+
+obs: It's responsive for smartphones too.
+
+## Dependencies used
+
+- Spring boot
+- Lombok
+- Freemarker
+- Bootstrap
+
+## Screenshots
+
+![image](screenshots/01.jpg)
+![image](screenshots/02.jpg)
+![image](screenshots/03.jpg)
+![image](screenshots/04.jpg)
+
 # 🚀 Backend challenge
 
 Welcome. This is our Star Wars Backend Challenge!
@@ -48,10 +71,10 @@ The challenge is far, far simple: you must get the data asked at [You Must](#-yo
 
 #### 🤟 You Must:
 
-- [ ] Code in Java
-- [ ] You must find the characters who appear the most in the SW movies (you can put them in order if you want);
-- [ ] Verify how many pilots did the Millenium Falcon had and who were they?;
-- [ ] Present the results the best way you can
+- [x] Code in Java
+- [x] You must find the characters who appear the most in the SW movies (you can put them in order if you want);
+- [x] Verify how many pilots did the Millenium Falcon had and who were they?;
+- [x] Present the results the best way you can
 
 <!-- - [ ] Obtain the Planets Size (Area) and order them (bigger to smaller); -->
 
@@ -70,10 +93,10 @@ The challenge is far, far simple: you must get the data asked at [You Must](#-yo
 
 **Essential Operations**
 
-- [ ] Read the documentation;
-- [ ] Save the characters and pilots in variables;
-- [ ] Save what you find necessary in variables;
-- [ ] :warning: display the code output data;
+- [x] Read the documentation;
+- [x] Save the characters and pilots in variables;
+- [x] Save what you find necessary in variables;
+- [x] :warning: display the code output data;
  
  <!-- - [ ] Save the characters, planets and pilots in variables; -->
 
@@ -91,14 +114,14 @@ In addition to the requirements raised above, we will look at the following crit
 
 ### :notebook: To-do list
 
-- [ ] Fully take the challenge
-  - [ ] find the characters who appear the most in the SW movies;
-  - [ ] Check how many people have piloted our dear Millennium Falcon and display their names;
-- [ ] Include details of your solution in the README
-  - [ ] what was accomplished in the challenge;
-  - [ ] instructions on how to check what was fulfilled;
-  - [ ] print the images that prove your solutions;
-  - [ ] README must be in English;
+- [x] Fully take the challenge
+  - [x] find the characters who appear the most in the SW movies;
+  - [x] Check how many people have piloted our dear Millennium Falcon and display their names;
+- [x] Include details of your solution in the README
+  - [x] what was accomplished in the challenge;
+  - [x] instructions on how to check what was fulfilled;
+  - [x] print the images that prove your solutions;
+  - [x] README must be in English;
 
 <!--   - [ ] Get the Area of the planets and sort from Largest to Smallest; -->
 

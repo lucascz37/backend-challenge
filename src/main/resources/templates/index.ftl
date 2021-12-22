@@ -4,6 +4,7 @@
         <title>Star Wars Wiki</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/gridAndFlex.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="/fav/favicon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
@@ -17,7 +18,7 @@
                 </a>
             </div>
         </nav>
-        <div class="container-lg d-flex justify-content-around mt-5">
+        <div class="flex-display mt-5">
             <div class="card" style="width: 18rem;">
                 <img src="/images/characters.png" alt="characters" width="30" height="350" class="card-img-top" alt="Characters">
                 <div class="card-body">

@@ -7,3 +7,14 @@
 .grid-item{
     justify-self: center;
 }
+
+.flex-display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-display div{
+    min-width: 300px;
+    margin-top: 5%;
+}

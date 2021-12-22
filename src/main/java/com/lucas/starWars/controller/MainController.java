@@ -1,9 +1,11 @@
 package com.lucas.starWars.controller;
 
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 import com.lucas.starWars.Service.Impl.CharacterService;
 import com.lucas.starWars.Service.Impl.FilmService;
+import com.lucas.starWars.Service.Impl.StarshipService;
 import com.lucas.starWars.models.Page;
 
 import org.springframework.stereotype.Controller;
@@ -18,10 +20,12 @@ public class MainController {
 
     private final CharacterService characterService;
     private final FilmService filmService;
+    private final StarshipService starshipService;
     
-    public MainController(CharacterService characterService, FilmService filmService){
+    public MainController(CharacterService characterService, FilmService filmService, StarshipService starshipService){
         this.characterService = characterService;
         this.filmService = filmService;
+        this.starshipService = starshipService;
     }
 
     @GetMapping(value="/")
@@ -46,6 +50,19 @@ public class MainController {
         var data = filmService.getPage(page);
 
         return generatePage("films", params, data, page);
+    }
+
+    @GetMapping(value="/starships")
+    public ModelAndView starships(@RequestParam(defaultValue = "1") Integer page){
+        HashMap<String, Object> params = new HashMap<>();
+
+        var data = starshipService.getPage(page);
+
+        data.getResults().forEach(starship -> {
+            starship.setPilots(starship.getPilots().stream().map(pilotURL -> characterService.getById(pilotURL).getName()).collect(Collectors.toList()));
+        });
+
+        return generatePage("starships", params, data, page);
     }
 
     private ModelAndView generatePage(String templateName, HashMap<String, Object> params, Page<?> data, Integer page){

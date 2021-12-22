@@ -20,14 +20,26 @@
         </nav>
 
         <div class="grid-display mt-5">
-            <#list films as film>
+            <#list starships as starship>
                 <div class="grid-item card mt-5" style="width: 18rem;">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Title: ${film.title}</li>
-                        <li class="list-group-item">Episode: ${film.episode}</li>
-                        <li class="list-group-item">Director: ${film.director}</li>
-                        <li class="list-group-item">Producer: ${film.producer}</li>
-                        <li class="list-group-item">ReleaseDate: ${film.releaseDate}</li>
+                        <li class="list-group-item">Name: ${starship.name}</li>
+                        <li class="list-group-item">Model: ${starship.model}</li>
+                        <li class="list-group-item">Manufacturer: ${starship.manufacturer}</li>
+                        <li class="list-group-item">Cost in credits: ${starship.costInCredits}</li>
+                        <li class="list-group-item">Starship class: ${starship.starshipClass}</li>
+                        <li class="list-group-item">
+                        <#if (starship.pilots?size > 0)>
+                            <ul class="list-group list-group-flusht">
+                            <li class="list-group-item">${starship.pilots?size} Pilots: </li>
+                            <#list starship.pilots as pilot>
+                                <li class="list-group-item">${pilot}</li>
+                            </#list>
+                            </ul>
+                        <#else>
+                            <p>No pilots or known pilots</p>
+                        </#if>
+                        </li>
                     </ul>
                 </div>
             </#list>
