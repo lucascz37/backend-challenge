@@ -11,6 +11,8 @@ import lombok.Data;
 public class Page<T> {
     
     private String next;
+
     private String previous;
+    
     private List<T> results;
 }
