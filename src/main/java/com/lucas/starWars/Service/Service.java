@@ -6,6 +6,6 @@ public interface Service<T>{
 
     public Page<T> getPage(Integer page);
 
-    public T getById(Integer id);
+    public T getById(String path);
 
 }

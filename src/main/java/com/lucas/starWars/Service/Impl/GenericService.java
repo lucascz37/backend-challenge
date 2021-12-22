@@ -18,12 +18,14 @@ import org.springframework.web.client.RestTemplate;
 public class GenericService<T> implements Service<T> {
 
     private final String apiURL;
-    private final TypeReference<Page<T>> reference;
+    private final TypeReference<Page<T>> pageReference;
+    private final TypeReference<T> entityReference;
     private static Logger logger = LoggerFactory.getLogger(GenericService.class);
 
-    public GenericService(String apiURL, TypeReference<Page<T>> reference){
+    public GenericService(String apiURL, TypeReference<Page<T>> pageReference, TypeReference<T> entityReference){
         this.apiURL = apiURL;
-        this.reference = reference;
+        this.pageReference = pageReference;
+        this.entityReference = entityReference;
     }
 
     @Override
@@ -41,14 +43,14 @@ public class GenericService<T> implements Service<T> {
             return null;
         }
 
-        ObjectReader reader = mapper.readerFor(reference);
+        ObjectReader reader = mapper.readerFor(pageReference);
 
         Page<T> pageResult;
 
         try{
             pageResult = reader.readValue(result);
         }catch(IOException e){
-            logger.error("Error converting characters to list");
+            logger.error("Error converting to Pojo");
             return null;
         }
         
@@ -56,9 +58,32 @@ public class GenericService<T> implements Service<T> {
     }
 
     @Override
-    public T getById(Integer id) {
+    public T getById(String path) {
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
+        ObjectMapper mapper = new ObjectMapper();
+
+        JsonNode result;
+
+        try{
+            result = mapper.readTree(response.getBody());
+        }catch(JsonProcessingException e){
+            logger.error("Error reading json property");
+            return null;
+        }
+
+        ObjectReader reader = mapper.readerFor(entityReference);
+
+        T resultEntity;
+
+        try{
+            resultEntity = reader.readValue(result);
+        }catch(IOException e){
+            logger.error("Error converting to Pojo");
+            return null;
+        }
         
-        return null;
+        return resultEntity;
     }
     
 }

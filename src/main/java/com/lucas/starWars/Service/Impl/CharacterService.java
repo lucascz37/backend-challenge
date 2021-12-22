@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class CharacterService extends GenericService<SWCharacter>{
 
     public CharacterService() {
-        super("https://swapi.dev/api/people", new TypeReference<Page<SWCharacter>>() {});
+        super("https://swapi.dev/api/people", new TypeReference<Page<SWCharacter>>() {}, new TypeReference<SWCharacter>(){});
     }
 
    

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class FilmService extends GenericService<Film> {
 
     public FilmService() {
-        super("https://swapi.dev/api/films", new TypeReference<Page<Film>>() {});
+        super("https://swapi.dev/api/films", new TypeReference<Page<Film>>() {}, new TypeReference<Film>() {});
     }
     
 }
